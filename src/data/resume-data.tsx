@@ -19,46 +19,39 @@ import {
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
-export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+export const 
+RESUME_DATA = {
+  name: "Juan Carlos",
+  initials: "JC",
+  location: "Madrid, Spain, CET",
+  locationLink: "https://www.google.com/maps/place/Madrid",
   about:
-    "Detail-oriented Full Stack Engineer dedicated to building high-quality products.",
+    "Graduado en Desarrollo de Aplicaciones Multiplataforma y Administración en Sistemas y Redes.",
   summary:
     "As a Full Stack Engineer, I specialize in taking products from concept to launch. I excel in leading teams and creating environments where individuals perform at their best. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience working remotely with companies worldwide.",
   avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "juancarlosgp212@gmail.com",
+    tel: "+34601286447",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/JuanCarlosGP",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://x.com/",
         icon: XIcon,
       },
     ],
   },
-  education: [
-    {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
-    },
-  ],
   work: [
     {
       company: "Film.io",
@@ -113,6 +106,20 @@ export const RESUME_DATA = {
       start: "2010",
       end: "2012",
       description: "Developed and tested software for LTE base stations",
+    },
+  ],
+  education: [
+    {
+      school: "Universidad Europea de Madrid",
+      degree: "Administración de Sistemas Informáticos en Red", 
+      start: "2021",
+      end: "2022",
+    },
+    {
+      school: "MEDAC",
+      degree: "Desarrollo de Aplicaciones Multiplataforma",
+      start: "2023",
+      end: "2024",
     },
   ],
   skills: [
